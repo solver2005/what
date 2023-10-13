@@ -6,9 +6,6 @@ import org.apache.logging.log4j.Logger;
 public final class task0 {
     private final static Logger LOGGER = LogManager.getLogger();
 
-    private task0() {
-
-    }
     public static void main(String[] args) {
         LOGGER.info("Привет, мир!");
     }
