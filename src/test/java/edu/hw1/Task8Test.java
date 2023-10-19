@@ -9,7 +9,7 @@ public class Task8Test {
         int[][] m =
             {{0, 0, 0, 1, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0, 0, 0}, {0, 1, 0, 0, 0, 1, 0, 0}, {0, 0, 0, 0, 1, 0, 1, 0},
                 {0, 1, 0, 0, 0, 1, 0, 0}, {0, 0, 0, 0, 0, 0, 0, 0}, {0, 1, 0, 0, 0, 0, 0, 1}, {0, 0, 0, 0, 1, 0, 0, 0}};
-        assertThat(edu.hw1.task8.knightBoardCapture(m)).isEqualTo(true);
+        assertThat(Task8.knightBoardCapture(m)).isEqualTo(true);
     }
 
     @Test
@@ -24,7 +24,7 @@ public class Task8Test {
             {1, 0, 0, 0, 1, 0, 1, 0},
             {0, 0, 0, 1, 0, 1, 0, 1}
         };
-        assertThat(edu.hw1.task8.knightBoardCapture(m)).isEqualTo(false);
+        assertThat(Task8.knightBoardCapture(m)).isEqualTo(false);
     }
 
     @Test
@@ -39,6 +39,6 @@ public class Task8Test {
             {0, 0, 0, 0, 0, 1, 0, 0},
             {1, 0, 0, 0, 0, 0, 0, 0}
         };
-        assertThat(edu.hw1.task8.knightBoardCapture(m)).isEqualTo(false);
+        assertThat(Task8.knightBoardCapture(m)).isEqualTo(false);
     }
 }
