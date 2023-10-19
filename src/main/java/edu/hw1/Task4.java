@@ -1,7 +1,7 @@
 package edu.hw1;
 
 public class Task4 {
-    public static String fixString(String s) {
+    static String fixString(String s) {
         if (s.length() == 1) {
             return s;
         }
@@ -11,7 +11,6 @@ public class Task4 {
             c[i] = c[i + 1];
             c[i + 1] = tmp;
         }
-        s = new String(c);
-        return s;
+        return new String(c);
     }
 }

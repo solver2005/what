@@ -2,9 +2,12 @@ package edu.hw1;
 
 import java.util.Arrays;
 
-public class Task6 {
+class Task6 {
+    final static int kaperkarNumber = 6174;
+    final static int theSmallestFourDigitNumber = 1000;
+    final static int keepZeroes = 10;
     public static int f(int n, int cnt) {
-        if (n == 6174) {
+        if (n == kaperkarNumber) {
             return cnt;
         }
         String c = Integer.toString(n);
@@ -19,11 +22,11 @@ public class Task6 {
         }
         a = new String(v);
         int y = Integer.parseInt(a);
-        int new_n = y - x;
+        int newN = y - x;
         //999 -> 9990, 99 -> 9900 .....
-        while (new_n < 1000) {
-            new_n *= 10;
+        while (newN < theSmallestFourDigitNumber) {
+            newN *= keepZeroes;
         }
-        return f(new_n, cnt + 1);
+        return f(newN, cnt + 1);
     }
 }

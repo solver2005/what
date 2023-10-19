@@ -1,13 +1,14 @@
 package edu.hw1;
 
-public class Task2 {
-    public static int f(int n) {
+class Task2 {
+    static final int reduce_digit = 10;
+    static int f(int n) {
         int ans = 0;
-        n = Math.abs(n);
+        int x = Math.abs(n);
         do {
             ans++;
-            n /= 10;
-        } while (n > 0);
+            x /= reduce_digit;
+        } while (x > 0);
         return ans;
     }
 }
