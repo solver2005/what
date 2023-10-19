@@ -1,8 +1,8 @@
 package edu.hw1;
 
-import java.util.*;
+import java.util.Arrays;
 
-public class task6 {
+public class Task6 {
     public static int f(int n, int cnt) {
         if (n == 6174) {
             return cnt;
@@ -19,10 +19,11 @@ public class task6 {
         }
         a = new String(v);
         int y = Integer.parseInt(a);
-        return f(y - x, cnt + 1);
-    }
-
-    public static void main(String[] args) {
-        System.out.println(f(1234, 0));
+        int new_n = y - x;
+        //999 -> 9990, 99 -> 9900 .....
+        while (new_n < 1000) {
+            new_n *= 10;
+        }
+        return f(new_n, cnt + 1);
     }
 }

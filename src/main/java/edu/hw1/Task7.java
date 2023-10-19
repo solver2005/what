@@ -1,8 +1,8 @@
 package edu.hw1;
 
-import java.util.*;
+import java.util.ArrayList;
 
-public class task7 {
+public class Task7 {
     public static int rotateRight(int n, int shift) {
         ArrayList<Integer> ar = new ArrayList<>();
         int x = n;
