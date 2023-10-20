@@ -1,6 +1,6 @@
 package edu.hw1;
 
-class Main {
+final class Main {
     static boolean f() {
         return true;
     }

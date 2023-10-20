@@ -2,7 +2,7 @@ package edu.hw1;
 
 import java.util.ArrayList;
 
-class Task7 {
+final class Task7 {
     public static int rotateRight(int n, int shift) {
         ArrayList<Integer> ar = new ArrayList<>();
         int x = n;

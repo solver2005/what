@@ -1,6 +1,6 @@
 package edu.hw1;
 
-public class Task5 {
+final class Task5 {
     public static final int MAGICNUMBER = 9;
     public static final int CHECKDIGIT = 10;
 

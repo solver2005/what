@@ -2,7 +2,7 @@ package edu.hw1;
 
 import java.util.Arrays;
 
-class Task3 {
+final class Task3 {
     public static boolean isNeastable(int[][] r) {
         Arrays.sort(r[0]);
         Arrays.sort(r[1]);

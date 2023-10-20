@@ -1,6 +1,6 @@
 package edu.hw1;
 
-class Task2 {
+final class Task2 {
     static final int REDUCEDIGIT = 10;
 
     static int f(int n) {

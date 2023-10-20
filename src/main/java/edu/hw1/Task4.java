@@ -1,6 +1,6 @@
 package edu.hw1;
 
-public class Task4 {
+final class Task4 {
     static String fixString(String s) {
         if (s.length() == 1) {
             return s;

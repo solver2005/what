@@ -1,6 +1,6 @@
 package edu.hw1;
 
-class Task1 {
+final class Task1 {
     static final int SECONDSINMINUTES = 60;
 
     public static int f(String s) {

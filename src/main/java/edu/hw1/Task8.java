@@ -1,6 +1,6 @@
 package edu.hw1;
 
-class Task8 {
+final class Task8 {
     public final static int MN = -2;
     public final static int SIZEOFTHECHESSBOARD = 8;
 

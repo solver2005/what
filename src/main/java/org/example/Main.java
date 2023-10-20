@@ -1,7 +1,7 @@
 package org.example;
 
-class Main {
-    static boolean f(){
+final class Main {
+    static boolean f() {
         return true;
     }
 }

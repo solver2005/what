@@ -2,7 +2,7 @@ package edu.hw1;
 
 import java.util.Arrays;
 
-class Task6 {
+final class Task6 {
     final static int KAPERKARNUMBER = 6174;
     final static int THESMALLESTFOURDIGINUMBER = 1000;
     final static int KEEPZEROES = 10;
