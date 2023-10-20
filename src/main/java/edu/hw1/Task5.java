@@ -4,6 +4,9 @@ final class Task5 {
     public static final int MAGICNUMBER = 9;
     public static final int CHECKDIGIT = 10;
 
+    private Task5() {
+    }
+
     public static boolean solution(int n) {
         String s = Integer.toString(n);
         while (s.length() > 1) {
