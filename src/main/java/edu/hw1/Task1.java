@@ -3,6 +3,9 @@ package edu.hw1;
 final class Task1 {
     static final int SECONDSINMINUTES = 60;
 
+    private Task1() {
+    }
+
     public static int f(String s) {
         String[] r = s.split(":");
         if (r.length < 2) {

@@ -7,6 +7,9 @@ final class Task6 {
     final static int THESMALLESTFOURDIGINUMBER = 1000;
     final static int KEEPZEROES = 10;
 
+    private Task6() {
+    }
+
     public static int f(int n, int cnt) {
         if (n == KAPERKARNUMBER) {
             return cnt;
