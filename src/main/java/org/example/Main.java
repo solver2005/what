@@ -1,6 +1,7 @@
 package org.example;
 
 class Main {
-    public static void main(String[] args) {
+    static boolean f(){
+        return true;
     }
 }

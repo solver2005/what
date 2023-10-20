@@ -1,8 +1,8 @@
 package edu.hw1;
 
 public class Task5 {
-    public static final int magicNumber = 9;
-    public static final int checkDigit = 10;
+    public static final int MAGICNUMBER = 9;
+    public static final int CHECKDIGIT = 10;
 
     public static boolean solution(int n) {
         String s = Integer.toString(n);
@@ -36,12 +36,12 @@ public class Task5 {
             int a = c[i] - '0';
             int b = c[i + 1] - '0';
             int v = a + b;
-            if (v <= magicNumber) {
+            if (v <= MAGICNUMBER) {
                 String m = String.valueOf((char) (v + '0'));
                 p = p.concat(m);
             } else {
-                String m = String.valueOf((char) (v % checkDigit + '0'));
-                String z = String.valueOf((char) (v / checkDigit + '0'));
+                String m = String.valueOf((char) (v % CHECKDIGIT + '0'));
+                String z = String.valueOf((char) (v / CHECKDIGIT + '0'));
                 p = p.concat(z);
                 p = p.concat(m);
             }

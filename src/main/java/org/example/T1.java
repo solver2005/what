@@ -1,5 +1,7 @@
 package org.example;
 
-class T1{
-    public static void main(String [] args){}
+class T1 {
+    static boolean f() {
+        return false;
+    }
 }

@@ -1,7 +1,7 @@
 package edu.hw1;
 
-class EvenArraysUtils{
-    static boolean f(){
+class EvenArrayUtils {
+    static boolean f() {
         return false;
     }
 }

@@ -1,11 +1,12 @@
 package edu.hw1;
 
 import org.junit.jupiter.api.Test;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
-class TestEvenArray {
+class TestMain {
     @Test
     void f() {
-        assertThat(EvenArrayUtils.f()).isEqualTo(false);
+        assertThat(Main.f()).isEqualTo(true);
     }
 }

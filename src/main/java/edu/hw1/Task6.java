@@ -3,11 +3,12 @@ package edu.hw1;
 import java.util.Arrays;
 
 class Task6 {
-    final static int kaperkarNumber = 6174;
-    final static int theSmallestFourDigitNumber = 1000;
-    final static int keepZeroes = 10;
+    final static int KAPERKARNUMBER = 6174;
+    final static int THESMALLESTFOURDIGINUMBER = 1000;
+    final static int KEEPZEROES = 10;
+
     public static int f(int n, int cnt) {
-        if (n == kaperkarNumber) {
+        if (n == KAPERKARNUMBER) {
             return cnt;
         }
         String c = Integer.toString(n);
@@ -24,8 +25,8 @@ class Task6 {
         int y = Integer.parseInt(a);
         int newN = y - x;
         //999 -> 9990, 99 -> 9900 .....
-        while (newN < theSmallestFourDigitNumber) {
-            newN *= keepZeroes;
+        while (newN < THESMALLESTFOURDIGINUMBER) {
+            newN *= KEEPZEROES;
         }
         return f(newN, cnt + 1);
     }

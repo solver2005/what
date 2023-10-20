@@ -1,7 +1,7 @@
 package edu.hw1;
 
 class Task1 {
-    static final int secondsInMinute = 60;
+    static final int SECONDSINMINUTES = 60;
 
     public static int f(String s) {
         String[] r = s.split(":");
@@ -10,10 +10,10 @@ class Task1 {
         }
         int n = Integer.parseInt(r[0]);
         int p = Integer.parseInt(r[1]);
-        if (p >= secondsInMinute) {
+        if (p >= SECONDSINMINUTES) {
 
             return -1;
         }
-        return n * secondsInMinute + p;
+        return n * SECONDSINMINUTES + p;
     }
 }
