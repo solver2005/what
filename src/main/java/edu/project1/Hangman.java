@@ -1,20 +1,21 @@
 package edu.project1;
 
+import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
-import java.util.Arrays;
 
 class Hangman {
     private Hangman() {
     }
 
     private static final int ATTEMPTS = 5;
+    private static final int SIZEOFTHEDICTIONARY = 6;
 
     @SuppressWarnings({"RegexpSinglelineJava", "UncommentedMain"})
     public static void main(String[] args) {
         String[] ar = {"rock", "december", "hello", "man", "water", "golf"};
         Random rand = new Random();
-        int n = rand.nextInt(5);
+        int n = rand.nextInt(SIZEOFTHEDICTIONARY);
         char[] guessedSymbols = ar[n].toCharArray();
         int wordSize = guessedSymbols.length;
         char[] guess = new char[wordSize];
