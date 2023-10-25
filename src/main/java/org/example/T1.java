@@ -1,10 +1,10 @@
 package org.example;
 
-final class Main {
-    private Main() {
+final class T1 {
+    private T1() {
     }
 
     static boolean f() {
-        return true;
+        return false;
     }
 }
