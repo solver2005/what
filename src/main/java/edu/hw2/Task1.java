@@ -35,8 +35,9 @@ sealed interface Expr {
 }
 
 public class Task1 {
-    private Task1(){
+    private Task1() {
     }
+
     public static void main(String[] args) {
         var two = new Expr.Constant(2);
         var four = new Expr.Constant(4);
